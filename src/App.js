@@ -4,12 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="bento">
-      <div className="box longbox">1</div>
-      <div className="box mediumbox">2</div>
-      <div className="box mediumbox">3</div>
-      <div className="box mediumbox">4</div>
-      <div className="box smallbox">5</div>
-      <div className="box smallbox">6</div>
+      <div className="box longbox">I'm Aaron Wu,<br/>a CS student at UC Merced.</div>
+      <div className="box mediumbox">connect<br/>socials</div>
+      <div className="box mediumbox">skills</div>
+      <div className="box mediumbox">projects</div>
+      <div className="box smallbox">hobbies</div>
+      <div className="box smallbox">design? narwhal</div>
     </div>
   );
 }
