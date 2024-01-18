@@ -8,7 +8,10 @@ function App() {
     <div className="bg">
     </div>
     <div className="bento">
-      <div className="box longbox">I'm Aaron Wu,<br/>a CS student at UC Merced.</div>
+      <div className="box longbox">
+        <h1>I'm Aaron Wu,</h1>
+        <p>a CS student at UC Merced.</p>
+      </div>
       <div className="box mediumbox">connect<br/>socials</div>
       <div className="box mediumbox">skills</div>
       <div className="box mediumbox">projects</div>
