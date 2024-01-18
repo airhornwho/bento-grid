@@ -136,6 +136,9 @@ body {
   height: 150px;
   width:81px;
 }
+.smallbox p{
+  font-size: 12px;
+}
 /* Media Queries */
 @media (min-width: 622px) {
   .bento {
@@ -178,7 +181,14 @@ body {
     color:#fff;
     margin-top:0px;
     margin-bottom:0px;
-    font-size: 30px;
+    font-size: 45px;
+    font-weight:bold;
+  }
+  .box h3 {
+    color:#fff;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size: 25px;
     font-weight:bold;
   }
   .box p {
