@@ -69,6 +69,19 @@ body {
   color: #a6e3a1;
   font-weight: bold;
 }
+/* Specific Boxes */
+.blog {
+  /* border: 1px solid red; */
+  position: relative;
+  overflow: hidden;
+}
+.blog img {
+  color: #89b4fa;
+  width: 110%;
+  display: inline-block;
+  transform: rotate(10deg) translateY(-29%) translateX(7%);
+  z-index: -1;
+}
 /* Different Type of Boxes */
 .longbox {
   height: 150px;
