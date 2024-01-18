@@ -1,8 +1,9 @@
 :root {
-  --bg-color: rgb(29, 27, 39);
+  --bg-color: rgb(17, 17, 27);
 }
 
 body {
+  font-family: 'Excon', sans-serif;
   display: flex;
   align-items: center;
   background-color: var(--bg-color);
@@ -20,8 +21,8 @@ body {
   width: 1px;
   background-color: #fff;
   border-radius: 50%;
-  box-shadow: -42vw -4vh 0px 0px #fff,25vw -41vh 0px 0px #fff,-14vw -49vh 1px 0px #fff,-12vw 45vh 0px 1px #fff,-44vw -33vh 0px 1px #fff,-13vw 41vh 0px 0px #fff,-23vw -24vh 1px 0px #fff,-38vw -27vh 0px 1px #fff,16vw -19vh 0px 0px #fff,28vw 33vh 1px 0px #fff,-49vw -4vh 0px 0px #fff,16vw 32vh 0px 1px #fff,36vw -18vh 1px 0px #fff,-25vw -30vh 1px 0px #fff,-23vw 24vh 0px 1px #fff,-2vw -35vh 1px 1px #fff,-25vw 9vh 0px 0px #fff,-15vw -34vh 0px 0px #fff,-8vw -19vh 1px 0px #fff,44vw 15vh 1px 0px #fff,-40vw 33vh 1px 1px #fff,-43vw 8vh 0px 0px #fff,-48vw -15vh 1px 1px 
-
+  box-shadow: -42vw -4vh 0px 0px #fff,25vw -41vh 0px 0px #fff,-14vw -49vh 1px 0px #fff,-12vw 45vh 0px 1px #fff,-44vw -33vh 0px 1px #fff,-13vw 41vh 0px 0px #fff,-23vw -24vh 1px 0px #fff,-38vw -27vh 0px 1px #fff,16vw -19vh 0px 0px #fff,28vw 33vh 1px 0px #fff,-49vw -4vh 0px 0px #fff,16vw 32vh 0px 1px #fff,36vw -18vh 1px 0px #fff,-25vw -30vh 1px 0px #fff,-23vw 24vh 0px 1px #fff,-2vw -35vh 1px 1px #fff,-25vw 9vh 0px 0px #fff,-15vw -34vh 0px 0px #fff,-8vw -19vh 1px 0px #fff,44vw 15vh 1px 0px #fff,-40vw 33vh 1px 1px #fff,-43vw 8vh 0px 0px #fff,-48vw -15vh 1px 1px; 
+  z-index: -1;
 }
 .bento {
   display:flex;
@@ -31,15 +32,42 @@ body {
   max-width: 1249px;
 }
 .box {
-  background-color: rgba(255, 255, 255, 0.05);
+  /* background-color: rgba(255, 255, 255, 0.05); */
+  background-color: rgba(30, 30, 46, 0.7);
   color: rgb(255,255,255);
   border-radius: 15px;
-  border: 1px solid rgba(255,255,255,0.05);
+  border: 1px solid rgba(194, 194, 194, 0.05);
   cursor: pointer;
+}
+.wrapper {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 1.1px;
 }
 .box h1 {
   color:#fff;
-  padding-left: 20px;
+  margin-top:10px;
+  margin-bottom:0px;
+}
+.box h2 {
+  color:#fff;
+  margin-top:0px;
+  margin-bottom:0px;
+  font-size: 20px;
+}
+.box p {
+  margin-top:0px;
+  margin-bottom:0px;
+  font-size: 15px;
+}
+.box strong {
+  color: #cba6f7;
+}
+.box span {
+  color: #a6e3a1;
+  font-weight: bold;
 }
 /* Different Type of Boxes */
 .longbox {

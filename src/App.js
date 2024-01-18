@@ -1,23 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <>
-    <div className="bg">
-    </div>
-    <div className="bento">
-      <div className="box longbox">
-        <h1>I'm Aaron Wu,</h1>
-        <p>a CS student at UC Merced.</p>
+      <div className="bg"></div>
+      <div className="bento">
+        <div className="box longbox">
+          <div className="wrapper">
+            <h1>
+              I'm <strong>Aaron Wu</strong>,
+            </h1>
+            <p>
+              studying CS at <span>UC Merced</span> and exploring the
+              possibilities of generative AI and immersive VR experiences.
+            </p>
+          </div>
+        </div>
+        <div className="box mediumbox">
+          <div className="wrapper">
+            <h2>Connect</h2>
+            <p>socials</p>
+          </div>
+        </div>
+        <div className="box mediumbox">
+          <div className="wrapper">
+            <h2>Blog</h2>
+            <p>skills</p>
+          </div>
+        </div>
+        <div className="box mediumbox">
+          <div className="wrapper">
+            <h2>Projects</h2>
+            <p>projects</p>
+          </div>
+        </div>
+        <div className="box smallbox">
+          <div className="wrapper">
+            <h2>Skills</h2>
+          </div>
+        </div>
+        <div className="box smallbox">
+          <div className="wrapper">
+            <p>design? narwhal</p>
+          </div>
+        </div>
       </div>
-      <div className="box mediumbox">connect<br/>socials</div>
-      <div className="box mediumbox">skills</div>
-      <div className="box mediumbox">projects</div>
-      <div className="box smallbox">hobbies</div>
-      <div className="box smallbox">design? narwhal</div>
-    </div>
     </>
   );
 }
