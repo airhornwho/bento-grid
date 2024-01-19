@@ -91,10 +91,19 @@ body {
   display: inline-block;
   transform: rotate(10deg) translateY(-10%) translateX(7%);
   z-index: -1;
+  transition: 1s;
+}
+.blog:hover img {
+  transform: rotate(15deg) translateY(-14%) translateX(8%);
 }
 .blog h2 {
   rotate:-6deg;
-  transform: translateY(-8px) translateX(10px);
+  transform: translateY(-10px) translateX(10px);
+  transition: 1s;
+}
+.blog:hover h2 {
+  rotate:-8deg;
+  transform: translateY(-15px) translateX(9px);
 }
 .projects {
   position: relative;
@@ -106,10 +115,19 @@ body {
   display: inline-block;
   transform: rotate(-10deg) translateY(-5%) translateX(-21%);
   z-index: -1;
+  transition: 1s;
+}
+.projects:hover img {
+  transform: rotate(-15deg) translateY(-10%) translateX(-23%);
 }
 .projects h2{
   rotate:4deg;
   transform: translateX(30px);
+  transition: 1s;
+}
+.projects:hover h2{
+  rotate:5deg;
+  transform: translateX(36px);
 }
 .connect {
   text-align: center;
@@ -198,4 +216,5 @@ body {
     color: #bac2de;
     font-weight: lighter;
   }
+  
 }
