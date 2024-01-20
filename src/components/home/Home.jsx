@@ -7,7 +7,6 @@ const Home = () => {
   return (
     <div>
         <>
-      <div className="bg"></div>
       <div className="bento">
         <div className="box longbox">
           <div className="wrapper">
